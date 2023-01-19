@@ -1,0 +1,165 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>关于我 | 东莞不知名靓仔的工作记录网站</title>
+<link rel="shortcut icon" href="https://huxvT9.github.io/favicon.ico?v=1674127552877">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://huxvT9.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="关于我 | 东莞不知名靓仔的工作记录网站 - Atom Feed" href="https://huxvT9.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="姓名：胡旭
+年龄：22
+职业：结构工程师（正在考虑跳槽去其他行业）
+在业时间：3年（
+工作轨迹：东莞嘉禾智能科技股份有限公司（助理结构工程师）
+深圳星科启电子商务有限公司（结构工程师）
+东莞盛达科技有限公司（结构工程师）
+技能：产品结构设计..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://huxvT9.github.io">
+  <img class="avatar" src="https://huxvT9.github.io/images/avatar.png?v=1674127552877" alt="">
+  </a>
+  <h1 class="site-title">
+    东莞不知名靓仔的工作记录网站
+  </h1>
+  <p class="site-description">
+    结构工程师|正在向就业第3年前进|湖南户口带点广东口音的川娃子
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          工作记录
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          快速索引
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于我
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              关于我
+            </h2>
+            <div class="post-info">
+              <span>
+                2019-01-25
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <p>姓名：胡旭<br>
+年龄：22<br>
+职业：结构工程师（正在考虑跳槽去其他行业）<br>
+在业时间：3年（<br>
+工作轨迹：东莞嘉禾智能科技股份有限公司（助理结构工程师）<br>
+深圳星科启电子商务有限公司（结构工程师）<br>
+东莞盛达科技有限公司（结构工程师）<br>
+技能：产品结构设计，硬表面产品外观设计，建模，PS详情页与KV图设计，keyshot产品渲染，blender产品渲染，PR视频剪辑，AE特效合成（学习中）<br>
+人生理想：想退休</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+
+        <div class="site-footer">
+  Powered by huxv
+  <a class="rss" href="https://huxvT9.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

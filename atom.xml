@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://huxvT9.github.io</id>
+    <title>东莞不知名靓仔的工作记录网站</title>
+    <updated>2023-01-19T11:25:54.168Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://huxvT9.github.io"/>
+    <link rel="self" href="https://huxvT9.github.io/atom.xml"/>
+    <subtitle>结构工程师|正在向就业第3年前进|湖南户口带点广东口音的川娃子</subtitle>
+    <logo>https://huxvT9.github.io/images/avatar.png</logo>
+    <icon>https://huxvT9.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, 东莞不知名靓仔的工作记录网站</rights>
+    <entry>
+        <title type="html"><![CDATA[网站测试2]]></title>
+        <id>https://huxvT9.github.io/post/wang-zhan-ce-shi-2/</id>
+        <link href="https://huxvT9.github.io/post/wang-zhan-ce-shi-2/">
+        </link>
+        <updated>2023-01-19T11:11:47.000Z</updated>
+        <content type="html"><![CDATA[<p>网站测</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[网站测试]]></title>
+        <id>https://huxvT9.github.io/post/ce-shi/</id>
+        <link href="https://huxvT9.github.io/post/ce-shi/">
+        </link>
+        <updated>2023-01-19T10:14:05.000Z</updated>
+        <content type="html"><![CDATA[<p>网站测试，网站测试，网站测试，网站测试，网站测试，网站测试，网站测试，网站测试，网站测试，网站测试，网站测试，网站测试网站测试，网站测试，网站测试网站测试网站测试，网站测试，网站测试</p>
+]]></content>
+    </entry>
+</feed>
